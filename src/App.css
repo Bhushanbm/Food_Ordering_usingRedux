@@ -1,0 +1,187 @@
+.home{
+  background-image: url('https://lagatar24.com/wp-content/uploads/2021/12/indian-food-curry-butter-chicken-palak-paneer-chiken-tikka-biryani-vegetable-curry-papad-dal-palak-sabji-jira-alu-rice-138549925.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+.home h1{
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 70px;
+  padding-top: 90px;
+}
+.home h2{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+.home button{
+  outline: none;
+  border: 2px solid rgb(26, 201, 157);
+background-color: rgb(26, 201, 157);
+border-radius: 5px;
+color: white;
+}
+.icons :hover{
+  padding: 8px;
+  background-color: aquamarine;
+  border-radius: 50%;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: #8a2b06;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 10;
+}
+
+.main-image {
+    width: 100%;
+    height: 25rem;
+    z-index: 0;
+    overflow: hidden;
+}
+
+
+.btn btn-primary{
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.footer {
+    background-color: #808080;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+}
+
+.Menu{
+    text-align: center;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.meal {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+.meal h3 {
+        margin: 0 0 0.25rem 0;
+}
+.price {
+    margin-top: 0.25rem;
+    font-weight: bold;
+    color: #ad5502;
+    font-size: 1.25rem;
+}
+.cart{
+    text-align: right;
+}
+.cartbag{
+    text-align:right;
+}
+.cart-container {
+    text-align: center;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.navbar {
+    width: 100%;
+    background-color: antiquewhite;
+}
+.bar{
+    display:inline;
+    text-align:right;
+}
+.incbtn {
+    font: inherit;
+    cursor: pointer;
+    background-color: #8a2b06;
+    border: 1px solid #8a2b06;
+    color: white;
+    width:30px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.incbtn:hover,
+.incbtn:active {
+    background-color: #641e03;
+    border-color: #641e03;
+}
+
+.decbtn {
+    font: inherit;
+    cursor: pointer;
+    background-color: #8a2b06;
+    border: 1px solid #8a2b06;
+    color: white;
+    width:30px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.decbtn:hover,
+.decbtn:active {
+    background-color: #641e03;
+    border-color: #641e03;
+}
+
+.qtyinput{
+    width:10px;
+}
+.cartbtn {
+    font: inherit;
+    cursor: pointer;
+    background-color: #8a2b06;
+    border: 1px solid #8a2b06;
+    color: white;
+    width: 110px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.cartbtn:hover,
+.cartbtn:active {
+        background-color: #641e03;
+        border-color: #641e03;
+}
+.order {
+    font: inherit;
+    cursor: pointer;
+    background-color: #f44336;
+    border: 2px solid #8a2b06;
+    color: white;
+    width: 110px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.ordernow {
+    font: inherit;
+    cursor: pointer;
+    background-color: #f44336;
+    border: 2px solid #8a2b06;
+    color: white;
+    width: 110px;
+    border-radius: 20px;
+    font-weight: bold;
+}
